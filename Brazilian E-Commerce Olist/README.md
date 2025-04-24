@@ -9,7 +9,19 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
 ## 3 – Database Description
 [Link to dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
+olist_customers_dataset
 
+- olist_geolocation_dataset
+
+- olist_order_items_dataset
+
+- olist_order_payments_dataset
+
+- olist_order_reviews_dataset
+
+olist_orders_dataset
+
+- olist_products_dataset
 
 ## 4 – Solution pipeline
 ## 5 – Technologies and tools
