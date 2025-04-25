@@ -12,14 +12,14 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
 - `olist_customers_dataset`:
   - :key:**customer_id**: key to the orders dataset. Each order has a unique customer_id.
-  - **customer_unique_id**: unique identifier of a customer.
+  - :key:**customer_unique_id**: unique identifier of a customer.
   - **customer_zip_code_prefix**: first five digits of customer zip code
   - **customer_city**: customer city name
   - **customer_state**: customer state
 
 
 - `olist_geolocation_dataset`:
-  - :key:**geolocation_zip_code_prefix**: first 5 digits of zip code
+  - **geolocation_zip_code_prefix**: first 5 digits of zip code
   - **geolocation_lat**: latitude
   - **geolocation_lng**: longitude
   - **geolocation_city**: city name
@@ -28,9 +28,9 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
 - `olist_order_items_dataset`:
   - :key:**order_id**: order unique identifier
-  - **order_item_id**: sequential number identifying number of items included in the same order.
-  - **product_id**: product unique identifier
-  - **seller_id**: seller unique identifier
+  - :key:**order_item_id**: sequential number identifying number of items included in the same order.
+  - :key:**product_id**: product unique identifier
+  - :key:**seller_id**: seller unique identifier
   - **shipping_limit_date**: Shows the seller shipping limit date for handling the order over to the logistic partner.
   - **price**: item price
   - **freight_value**: item freight value item (if an order has more than one item the freight value is splitted between items)
@@ -46,7 +46,7 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
 - `olist_order_reviews_dataset`:
   - :key:**review_id**: unique review identifier
-  - **order_id**: unique order identifier
+  - :key:**order_id**: unique order identifier
   - **review_score**: Note ranging from 1 to 5 given by the customer on a satisfaction survey.
   - **review_comment_title**: Comment title from the review left by the customer, in Portuguese.
   - **review_comment_message**: Comment message from the review left by the customer, in Portuguese.
@@ -56,7 +56,7 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
 - `olist_orders_dataset`:
   - :key:**order_id**: unique identifier of the order.
-  - **customer_id**: key to the customer dataset. Each order has a unique customer_id.
+  - :key:**customer_id**: key to the customer dataset. Each order has a unique customer_id.
   - **order_status**: Reference to the order status (delivered, shipped, etc).
   - **order_purchase_timestamp**: Shows the purchase timestamp.
   - **order_approved_at**: Shows the payment approval timestamp.
@@ -85,7 +85,7 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
     
 - `product_category_name_translation`:
-  - :key:**product_category_name**: category name in Portuguese
+  - **product_category_name**: category name in Portuguese
   - **product_category_name_english**: category name in English
 
 
