@@ -8,7 +8,14 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 ## 2 – Business Problem and Objectives
 
 ## 3 – Database Description
+
+
+
 [Link to dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
+
+
+![Alt text](images/image_dataset.png)
+
 
 - `olist_customers_dataset`:
   - :key:**customer_id**: key to the orders dataset. Each order has a unique customer_id.
