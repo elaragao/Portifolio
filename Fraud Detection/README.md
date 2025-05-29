@@ -119,17 +119,17 @@ This project was developed using a set of tools and libraries widely used in dat
 
 
 <!------------------------------------------------------>
-## 7 - Main Business Insights
+## 7 – Main Business Insights
 
 
 
 <!------------------------------------------------------>
-## 8 - Modeling Insights
+## 8 – Modeling Insights
 
 
 
 <!------------------------------------------------------>
-## 9 - Next Steps
+## 9 – Next Steps
 
 
 
