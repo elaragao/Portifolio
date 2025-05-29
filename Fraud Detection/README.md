@@ -39,7 +39,26 @@ What are the project benefits?
 
 <!------------------------------------------------------>
 ## 3 – Database Description
+The dataset contains the records of financial transactions for fraud detection. (6.3 Million Records)
+Some of these records were flagged false by existing algorithms (in the column `isFlaggedFraud`).
 
+
+- `step`: Step denotes a portion of the time period
+- `type`: Type of the transaction
+  - CASH-IN: is the process of increasing the balance of account by paying in cash to a merchant.
+  - CASH-OUT: is the opposite process of CASH-IN, it means to withdraw cash from a merchant which decreases the balance of the account.
+  - DEBIT: is similar process than CASH-OUT and involves sending the money from the mobile money service to a bank account.
+  - PAYMENT: is the process of paying for goods or services to merchants which decreases the balance of the account and increases the balance of the receiver.
+  - TRANSFER: is the process of sending money to another user of the service through the mobile money platform
+- `amount`: Amount involved in transaction
+- `nameOrig`: Name of the source account
+- `oldbalanceOrg`: Old balance of source account
+- `newbalanceOrig`: New balance of source account
+- `nameDest`: Name of the target account
+- `oldbalanceDest`: Old balance of target account
+- `newbalanceDest`: New balance of target account
+- `isFraud`: 1 means is Fraud 0 means its not
+- `isFlaggedFraud`: Was the system able to detect if the transaction is fraud or not based on existing techniques
 
 
 <!------------------------------------------------------>
@@ -70,3 +89,14 @@ What are the project benefits?
 
 <!------------------------------------------------------>
 ## 9 - Next Steps
+
+
+
+<!------------------------------------------------------>
+## 📚 References and Inspiration
+
+This project was inspired by analyses and approaches present in the following repository:
+
+- [Churn Prediction](https://github.com/chicolucio/churn-prediction/tree/master) – by [Francisco Lucio Bustamante], which served as a reference for structuring the section related to machine learning.
+
+
