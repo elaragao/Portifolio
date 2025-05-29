@@ -63,13 +63,54 @@ Some of these records were flagged false by existing algorithms (in the column `
 
 <!------------------------------------------------------>
 ## 4 – Solution pipeline
+The following pipeline was used, based on CRISP-DM framework:
+
+1. EDA
+   - Define the business problem.
+   - Collect the data and get a general overview of it.
+   - Explore the data (exploratory data analysis)
+   - Feature engineering, data cleaning and preprocessing.
+2. Modeling
+   - Split the data into train and test sets.
+   - Model training, comparison, feature selection and tuning.
+   - Final production model testing and evaluation.
+   - Conclude and interpret the model results.
+   - Deploy.
+
 
 
 
 <!------------------------------------------------------>
 ## 5 – Technologies and tools
+This project was developed using a set of tools and libraries widely used in data science and machine learning:
 
+📊 Libraries for Data Analysis
+- Pandas – Tabular data manipulation and analysis.
 
+- NumPy – Mathematical operations and array manipulation.
+
+- Matplotlib and Seaborn – Creation of graphs and exploratory visualizations.
+
+🤖 Machine Learning
+- Scikit-learn (sklearn) – Main framework for machine learning, used for:
+
+   - Models: DummyClassifier, LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier.
+
+   - Cross-validation: StratifiedKFold, cross_validate.
+
+   - Hyperparameter optimization: GridSearchCV.
+
+- XGBoost (XGBClassifier) ​​– Tree-based algorithm focused on performance.
+
+- LightGBM (LGBMClassifier) ​​– Fast and efficient boosting algorithm for large volumes of data.
+
+🧪 Development Environment
+- Jupyter Notebook – Interactive environment for development, testing and analysis visualization.
+
+- Anaconda – Package and environment manager, used to organize the development environment.
+
+🌐 Versioning
+- GitHub – Platform for version control, hosting and project documentation.
 
 <!------------------------------------------------------>
 ## 6 – Project Structure
@@ -83,7 +124,7 @@ Some of these records were flagged false by existing algorithms (in the column `
 
 
 <!------------------------------------------------------>
-## 8 - Modeling and Insights
+## 8 - Modeling Insights
 
 
 
