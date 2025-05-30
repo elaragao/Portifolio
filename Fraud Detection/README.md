@@ -121,6 +121,12 @@ This project was developed using a set of tools and libraries widely used in dat
 <!------------------------------------------------------>
 ## 7 – Main Business Insights
 
+<!-- Gráfico de quantos valores existemde fraude e do lado de Flagged Fraud (tentar colocar valroes tanto de porcentagem qt de contagem) -->
+
+<!-- Fraudes por tipo (contagem) -->
+
+<!-- Fraudes por tipo (valor) -->
+
 
 
 <!------------------------------------------------------>
@@ -131,6 +137,7 @@ This project was developed using a set of tools and libraries widely used in dat
 <!------------------------------------------------------>
 ## 9 – Next Steps
 
+<!-- WebAPI -->
 
 
 <!------------------------------------------------------>
