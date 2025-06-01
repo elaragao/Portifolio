@@ -7,7 +7,7 @@ This project focuses on the detection of fraudulent financial transactions using
 By replicating the dynamics of legitimate and illegitimate user behavior through agent-based simulation, PaySim creates a synthetic dataset that mimics realistic transaction patterns. In this project, this data is used to train and evaluate various classification models for detecting fraudulent activity in financial transactions, with special emphasis on maximizing Recall, minimizing False Negatives, and ensuring practical application for real-time systems.
 
 It's possible to check the original publication either in the paper 
-[Lopez-Rojas, Edgar, Ahmad Elmir, and Stefan Axelsson. "PaySim: A financial mobile money simulator for fraud detection." 28th European modeling and simulation symposium, EMSS, Larnaca. Dime University of Genoa, 2016.]([https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data](https://www.researchgate.net/profile/Stefan-Axelsson/publication/313138956_PAYSIM_A_FINANCIAL_MOBILE_MONEY_SIMULATOR_FOR_FRAUD_DETECTION/links/5890f87e92851cda2568a295/PAYSIM-A-FINANCIAL-MOBILE-MONEY-SIMULATOR-FOR-FRAUD-DETECTION.pdf?origin=publication_detail&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ&__cf_chl_tk=W6mmz0uF1h2LAgdN9YA_YkMzBmVw4j2fKjadfzHnSJ8-1743777820-1.0.1.1-GwSaNkozXl7WB1SkUEOIHm1RExZXrWkE_jsAwntzho4)) and the dataset.
+[Lopez-Rojas, Edgar, Ahmad Elmir, and Stefan Axelsson. "PaySim: A financial mobile money simulator for fraud detection." 28th European modeling and simulation symposium, EMSS, Larnaca. Dime University of Genoa, 2016.](https://www.researchgate.net/profile/Stefan-Axelsson/publication/313138956_PAYSIM_A_FINANCIAL_MOBILE_MONEY_SIMULATOR_FOR_FRAUD_DETECTION/links/5890f87e92851cda2568a295/PAYSIM-A-FINANCIAL-MOBILE-MONEY-SIMULATOR-FOR-FRAUD-DETECTION.pdf?origin=publication_detail&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ&__cf_chl_tk=W6mmz0uF1h2LAgdN9YA_YkMzBmVw4j2fKjadfzHnSJ8-1743777820-1.0.1.1-GwSaNkozXl7WB1SkUEOIHm1RExZXrWkE_jsAwntzho4) and the dataset.
 
 <!------------------------------------------------------>
 ## 2 – Business Problem and Objectives
@@ -71,11 +71,16 @@ The following pipeline was used, based on CRISP-DM framework:
    - Explore the data (exploratory data analysis)
    - Feature engineering, data cleaning and preprocessing.
 2. Modeling
-   - Split the data into train and test sets.
-   - Model training, comparison, feature selection and tuning.
-   - Final production model testing and evaluation.
-   - Conclude and interpret the model results.
-   - Deploy.
+   - Comparision
+      - Split the data into train and test sets.
+      - Comparing Models
+   - Fine Tunning
+      - Feature selection and Tuning.
+      - Exporting model.
+   - Testing
+      - Final production model testing and evaluation.
+      - Conclude and interpret the model results.
+      - Deploy.
 
 
 
