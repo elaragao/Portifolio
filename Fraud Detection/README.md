@@ -143,7 +143,9 @@ This project was developed using a set of tools and libraries widely used in dat
 ## 9 – Next Steps
 
 <!-- WebAPI -->
-
+- Create a model to deploy
+- Adjust thresholds to obtain a better recall
+- Create a utils folder to allocate the functions used during the function
 
 <!------------------------------------------------------>
 ## 📚 References and Inspiration
