@@ -137,7 +137,16 @@ This project was developed using a set of tools and libraries widely used in dat
 <!------------------------------------------------------>
 ## 8 – Modeling Insights
 
+<!-- Comparação de modelos -->
 
+
+<!-- Desempenho melhor modelo tunado -->
+
+
+<!-- Teste - Fraudes detectadas e nãodetectadas (incluso valor financieiro e gráficos) -->
+
+
+<!-- Ganhos financeiros -->
 
 <!------------------------------------------------------>
 ## 9 – Next Steps
