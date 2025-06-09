@@ -138,7 +138,7 @@ This project was developed using a set of tools and libraries widely used in dat
 ## 8 – Modeling Insights
 
 <!-- Comparação de modelos -->
-
+![Alt text](images/boxplot_models.png)
 
 <!-- Desempenho melhor modelo tunado -->
 
@@ -154,7 +154,7 @@ This project was developed using a set of tools and libraries widely used in dat
 <!-- WebAPI -->
 - Create a model to deploy
 - Adjust thresholds to obtain a better recall
-- Create a utils folder to allocate the functions used during the function
+- Create a utils folder to allocate the functions used during the project
 
 <!------------------------------------------------------>
 ## 📚 References and Inspiration
