@@ -127,11 +127,15 @@ This project was developed using a set of tools and libraries widely used in dat
 ## 7 – Main Business Insights
 
 <!-- Gráfico de quantos valores existemde fraude e do lado de Flagged Fraud (tentar colocar valroes tanto de porcentagem qt de contagem) -->
+|True Fraud|Flagged Fraud|
+|-------------------------------------|-------------------------------------|
+| ![AUROC](images/isfraud_count.png) | ![AUPRC](images/flaggedfraud_count.png) |
 
 <!-- Fraudes por tipo (contagem) -->
+![Alt text](images/fraud_count.png)
 
 <!-- Fraudes por tipo (valor) -->
-
+![Alt text](images/fraud_amount.png)
 
 
 <!------------------------------------------------------>
@@ -141,7 +145,16 @@ This project was developed using a set of tools and libraries widely used in dat
 ![Alt text](images/boxplot_models.png)
 
 <!-- Desempenho melhor modelo tunado -->
-
+| Metric              | Score    |
+|---------------------|----------|
+| Accuracy            | 0.9997 |
+| Balanced Accuracy   | 0.91 |
+| F1                  | 0.86 |
+| Precision           | 0.93 |
+| Recall              | 0.81 |
+| ROC AUC             | 0.9992 |
+| Average Precision   | 0.93 |
+| F1 Weighted         | 0.9997 |
 
 <!-- Teste - Fraudes detectadas e nãodetectadas (incluso valor financieiro e gráficos) -->
 
