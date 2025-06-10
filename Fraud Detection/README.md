@@ -162,10 +162,12 @@ This project was developed using a set of tools and libraries widely used in dat
   - XGB
   - LGBM
 
-
 <img src="images/boxplot_models.png" width="700">
 
-<!-- Desempenho melhor modelo tunado -->
+### Best Model Tunned Performance
+
+- The best model among those tested was XGB, obtaining the following scores after fine tunning
+
 | Metric              | Score    |
 |---------------------|----------|
 | Accuracy            | 0.9997 |
