@@ -179,6 +179,15 @@ This project was developed using a set of tools and libraries widely used in dat
 | Average Precision   | 0.93 |
 | F1 Weighted         | 0.9997 |
 
+
+### Financial Results
+
+Applying the predictions to the test set to analyze financial gains and losses, the following results were obtained:
+- Over $3 Billion in Fraudulent Transactions Detected;
+- Legitimate transactions classified as fraud had an indirect cost of 47 million;
+- 67 million in fraud could not be traced.
+
+<img src="images/Financial_impact.png" width="700">
 <!-- Teste - Fraudes detectadas e nãodetectadas (incluso valor financieiro e gráficos) -->
 
 
