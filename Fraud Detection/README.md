@@ -126,23 +126,44 @@ This project was developed using a set of tools and libraries widely used in dat
 <!------------------------------------------------------>
 ## 7 – Main Business Insights
 
+### Fraud × Flagged Fraud
 <!-- Gráfico de quantos valores existemde fraude e do lado de Flagged Fraud (tentar colocar valroes tanto de porcentagem qt de contagem) -->
+- There are over 8000 frauds in total in the dataset;
+
+- The current model employed detects less than 0.2% of existing frauds;
+
 |True Fraud|Flagged Fraud|
 |-------------------------------------|-------------------------------------|
 | ![AUROC](images/isfraud_count.png) | ![AUPRC](images/flaggedfraud_count.png) |
 
-<!-- Fraudes por tipo (contagem) -->
-![Alt text](images/fraud_count.png)
 
+
+### Transations Amount
 <!-- Fraudes por tipo (valor) -->
-![Alt text](images/fraud_amount.png)
+- Only two `types` of transactions (`CASH_OUT` and `TRANSFER`) were used to commit fraud;
 
+- In both `types`, there was a very similar distribution in terms of `amount` values, both in fraudulent and non-fraudulent transactions;
+<!-- ![Alt text](images/fraud_amount.png) -->
+
+<img src="images/fraud_amount.png" width="700">
 
 <!------------------------------------------------------>
 ## 8 – Modeling Insights
 
+### Comparing Models
 <!-- Comparação de modelos -->
-![Alt text](images/boxplot_models.png)
+<!-- ![Alt text](images/boxplot_models.png)  -->
+- The following models were used to compare and choose the ideal one for the problem:
+  - Dummy Classifier
+  - Logistic Regression
+  - Decision Tree
+  - Naive Bayes
+  - KNN
+  - XGB
+  - LGBM
+
+
+<img src="images/boxplot_models.png" width="700">
 
 <!-- Desempenho melhor modelo tunado -->
 | Metric              | Score    |
