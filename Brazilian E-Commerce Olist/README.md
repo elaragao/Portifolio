@@ -102,3 +102,12 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 
 ## 6 – Project Structure
 
+<!--
+### https://www.kaggle.com/code/erkanpolat/brazilian-e-commerce-public
+
+### https://www.kaggle.com/code/analopes6/tcc-customer-segmentation-rfm
+
+### https://www.kaggle.com/code/sergeistanislavovich/let-s-talk-e-commerce-the-brazilian-edition#4.-Exploratory-Data-Analysis-(EDA)
+
+### https://www.kaggle.com/code/thiagopanini/e-commerce-sentiment-analysis-eda-viz-nlp
+-->
