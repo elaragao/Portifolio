@@ -10,11 +10,12 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 ## 3 – Database Description
 
 
+The dataset for the respective project has the structure of the image below and can be found at this [link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
 
-[Link to dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data)
 
+<img src="images/image_dataset.png" width="700">
 
-![Alt text](images/image_dataset.png)
+<!-- ![Alt text](images/image_dataset.png) -->
 
 
 - `olist_customers_dataset`:
@@ -101,6 +102,17 @@ This is a Brazilian ecommerce public dataset of orders made at Olist Store. The 
 ## 5 – Technologies and tools
 
 ## 6 – Project Structure
+
+
+## 7 – Main EDA Insights
+
+## 8 – RFM Insights
+
+## 9 – Next Steps
+- Geospatial Analysis
+- Sentiment Analysis
+- Tableu Dashboard 
+- Power BI Dashboard 
 
 <!--
 ### https://www.kaggle.com/code/erkanpolat/brazilian-e-commerce-public
