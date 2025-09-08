@@ -36,6 +36,7 @@ As  entregas exigidas para este projeto são:
 
 6.	Salve o modelo desenvolvido no formato .pkl. 
 
+Estas foram respondidas ao decorrer dos relatórios escritos juntamente com os códigos nos arquivos `EDA.ipybn` e `Modeling.ipybn`.
 
 
 <!------------------------------------------------------>
@@ -97,15 +98,19 @@ Este projeto foi desenvolvido utilizando um conjunto de ferramentas e biblioteca
 🤖 Machine Learning
 - Scikit-learn (sklearn) – Estrutura principal para aprendizado de máquina, usada para:
 
-   - Modelos: DummyClassifier, LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier.
+   - Modelos: DummyRegressor, LinearRegression, DecisionTreeRegressor, RandomForestRegressor, KNeighborsRegressor.
 
    - Cross-validation: KFold, cross_validate.
 
    - Otimização de hiperparâmetros: GridSearchCV.
 
-- XGBoost (XGBClassifier) ​​– Algoritmo baseado em árvore focado em desempenho.
+- XGBoost (XGBRegressor) ​​– Algoritmo baseado em árvore focado em desempenho.
 
-- LightGBM (LGBMClassifier) ​​– Algoritmo de aumento rápido e eficiente para grandes volumes de dados.
+- LightGBM (LGBMRegressor) ​​– Algoritmo de aumento rápido e eficiente para grandes volumes de dados.
+
+📦 Outras Bibliotecas de Suporte
+
+ - Pickle – Serialização e desserialização de objetos Python, utilizada para salvar e carregar os modelos treinados.
 
 🧪 Ambiente de Desenvolvimento
 - Jupyter Notebook – Ambiente interativo para visualização de desenvolvimento, testes e análise.
@@ -126,6 +131,63 @@ Este projeto foi desenvolvido utilizando um conjunto de ferramentas e biblioteca
 <!------------------------------------------------------>
 ## 8 - Execute este projeto em sua máquina local
 
+Para reproduzir este projeto em sua própria máquina, siga os passos abaixo:
+
+
+### 1 - Clone o repositório e vá até ele
+
+```bash
+git clone https://github.com/SEU_USUARIO/IMBD-Movies.git
+cd IMBD-Movies
+```
+
+
+### 2 - Crie um ambiente virtual (opcional, mas recomendado)
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+
+
+### 3 - Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 4 - Estrutura de pastas
+O projeto segue a seguinte estrutura:
+
+```bash
+├── notebooks
+│   ├── EDA.ipynb         # Análise exploratória dos dados
+│   ├── Modeling.ipynb    # Modelagem preditiva
+├── images                # Visualizações salvas
+├── datasets
+│   └── desafio_indicium_imdb   # Base de dados utilizada
+├── README.md
+├── requirements.txt
+```
+
+
+### 5 - Execute os notebooks
+Abra o Jupyter Notebook ou Jupyter Lab e rode os arquivos:
+
+```bash
+jupyter notebook
+```
+
+Em seguida, abra:
+`notebooks/EDA.ipynb` para a análise exploratória.
+`notebooks/Modeling.ipynb` para a modelagem e predição da nota do IMDB.
+
+
 
 <!------------------------------------------------------>
 ## 9 - Próximos Passos
+
+- Executar um Deploy utilizando MLFlow e Streamlit
+- Automatizar o processo de transformação dos dados através de pipelines utilizando `sklearn`
