@@ -181,7 +181,9 @@ jupyter notebook
 ```
 
 Em seguida, abra:
+
 `notebooks/EDA.ipynb` para a análise exploratória.
+
 `notebooks/Modeling.ipynb` para a modelagem e predição da nota do IMDB.
 
 
